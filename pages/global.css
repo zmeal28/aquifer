@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poly:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&family=Open+Sans:wght@300;400&display=swap");
+
+/* Custom font for the navbar */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Font faces for Gilroy */
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("/gilroy-regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("/gilroy-medium.ttf");
+  font-weight: 400;
+}
+
+/* Font face for FontAwesome */
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/fa-regular-400.ttf");
+  font-weight: 400;
+}
+
+/* Tailwind base and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body styling */
+body {
+  @apply leading-[normal] m-0;
+}
+
+/* Reset border width */
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+/* Global classes for lighter font weights */
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
