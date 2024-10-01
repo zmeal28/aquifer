@@ -1,5 +1,5 @@
 
-  # Jimil Mandani's Team's Project
+  # Aquifer
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
